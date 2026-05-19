@@ -1,0 +1,121 @@
+{
+  "checkpoint": "./weights/checkpoint_best_acc_sd14.pth",
+  "image_dir": "./test_images",
+  "real_prefix": "true",
+  "total_images": 19,
+  "metrics": {
+    "total": 19,
+    "num_real": 6,
+    "num_fake": 13,
+    "tp": 5,
+    "tn": 5,
+    "fp": 1,
+    "fn": 8,
+    "accuracy": 0.5263,
+    "precision": 0.8333,
+    "recall": 0.3846,
+    "f1_score": 0.5263,
+    "average_precision": 0.8525,
+    "real_accuracy": 0.8333,
+    "fake_accuracy": 0.3846,
+    "mean_aigc_prob_real": 0.1822,
+    "mean_aigc_prob_fake": 0.3589
+  },
+  "results": [
+    {
+      "image_path": "./test_images/doc_banana.jpeg",
+      "aigc_probability": 0.760632,
+      "is_aigc": true
+    },
+    {
+      "image_path": "./test_images/doc_banana_2.jpeg",
+      "aigc_probability": 0.068443,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/doc_banana_3.jpeg",
+      "aigc_probability": 0.06645,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/doc_gemini3.jpeg",
+      "aigc_probability": 0.121437,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/doc_gpt54.jpeg",
+      "aigc_probability": 0.715877,
+      "is_aigc": true
+    },
+    {
+      "image_path": "./test_images/doc_seedream.jpeg",
+      "aigc_probability": 0.079927,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/doc_seedream_2.jpeg",
+      "aigc_probability": 0.148379,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/note_banana.jpeg",
+      "aigc_probability": 0.072455,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/note_gemini3pro.jpeg",
+      "aigc_probability": 0.768995,
+      "is_aigc": true
+    },
+    {
+      "image_path": "./test_images/note_gemini3pro_2.jpeg",
+      "aigc_probability": 0.057197,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/note_gpt54.jpeg",
+      "aigc_probability": 0.91408,
+      "is_aigc": true
+    },
+    {
+      "image_path": ".//test_images/note_gpt54_2.jpeg",
+      "aigc_probability": 0.776314,
+      "is_aigc": true
+    },
+    {
+      "image_path": "./test_images/note_seedream.jpeg",
+      "aigc_probability": 0.116009,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true1_doc.jpg",
+      "aigc_probability": 0.062682,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true2_doc.jpg",
+      "aigc_probability": 0.059164,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true3_doc.jpg",
+      "aigc_probability": 0.078426,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true4_note.jpg",
+      "aigc_probability": 0.291961,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true5_note.jpg",
+      "aigc_probability": 0.069966,
+      "is_aigc": false
+    },
+    {
+      "image_path": "./test_images/true6_note.jpg",
+      "aigc_probability": 0.53084,
+      "is_aigc": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local tool/runtime folders
+.codex/
+.agents/
+.claude/
+.gradio/
+._____temp/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model / local metadata
+*.pt
+*.pth
+*.ckpt
+.msc
+.mv
